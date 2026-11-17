@@ -1,0 +1,46 @@
+{
+	"object": "list",
+	"data": [
+		{
+			"id": "gpt-4o",
+			"object": "model",
+			"created": 1715367049,
+			"owned_by": "openai"
+		},
+		{
+			"id": "anthropic/claude-sonnet",
+			"object": "model",
+			"name": "Claude Sonnet",
+			"context_length": 200000,
+			"architecture": {
+				"input_modalities": ["text", "image"],
+				"output_modalities": ["text"]
+			},
+			"top_provider": {
+				"context_length": 200000,
+				"max_completion_tokens": 64000
+			},
+			"supported_parameters": ["tools", "tool_choice", "reasoning", "max_tokens", "temperature"]
+		},
+		{
+			"id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+			"object": "model",
+			"created": 1731000000,
+			"owned_by": "vllm",
+			"max_model_len": 65536
+		},
+		{
+			"id": "llama-3.3-70b-versatile",
+			"object": "model",
+			"owned_by": "Meta",
+			"context_window": 131072,
+			"max_completion_tokens": 32768
+		},
+		{
+			"id": "text-embedding-3-small",
+			"object": "model",
+			"created": 1705948997,
+			"owned_by": "system"
+		}
+	]
+}
